@@ -67,16 +67,16 @@ What are the values of the following slice expressions?
 ● Admission for anyone age 18 or older is Rs. 40.
 Write a program to print the admission price message.'''
 
-age = int(input('enter age in number:'))
+# age = int(input('enter age in number:'))
 
-if  0 <= age < 4:
-    print(f'Free')
-elif 4 <= age < 18:
-    print(f'Amusement park charge is 25')
-elif age >= 18:
-    print(f'Amusement park charge is 40')
-else:
-    print('invalid input')
+# if  0 <= age < 4:
+#     print(f'Free')
+# elif 4 <= age < 18:
+#     print(f'Amusement park charge is 25')
+# elif age >= 18:
+#     print(f'Amusement park charge is 40')
+# else:
+#     print('invalid input')
     
 
 '''10. Alice, Bob and Carol have agreed to pool their Halloween candy and split it evenly among
