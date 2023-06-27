@@ -58,7 +58,7 @@ What are the values of the following slice expressions?
 
 '''8. Write a program to replace whitespace with hyphen in any given string.'''
 # string = input('enter a word:')
-# x= string.replace(' ','-')
+# x = string.replace(' ','-')
 # print(x)
 
 '''9. Consider an amusement park that charges different rates for different age groups:
@@ -67,16 +67,16 @@ What are the values of the following slice expressions?
 ● Admission for anyone age 18 or older is Rs. 40.
 Write a program to print the admission price message.'''
 
-# age = int(input('enter age in number:'))
+age = int(input('enter age in number:'))
 
-# if  0 <= age < 4:
-#     print('Free')
-# elif 4 <= age < 18:
-#     print('25')
-# elif age >= 18:
-#     print('40')
-# else:
-#     print('invalid input')
+if  0 <= age < 4:
+    print(f'Free')
+elif 4 <= age < 18:
+    print(f'Amusement park charge is 25')
+elif age >= 18:
+    print(f'Amusement park charge is 40')
+else:
+    print('invalid input')
     
 
 '''10. Alice, Bob and Carol have agreed to pool their Halloween candy and split it evenly among
@@ -96,4 +96,3 @@ sum_of_candies = alice_candies + bob_candies + carol_candies
 smashed = sum_of_candies % 10
 
 print(f'No.of. candies to be smashed :{smashed}')
-
