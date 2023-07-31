@@ -3,7 +3,7 @@
 #output : 1#2#3#4&
 
 '''2. Which is the only string that Python considers as False when converting to boolean?'''
-#a = '' # empty string
+#ans : a = '' # empty string
 
 '''3. What would be the output of this code if the user tried to enter 3 in the console?
 choice = int(input('Pick a number: '))

@@ -107,5 +107,5 @@ alphabet?
 select ename from employees where ename like "%t";
 7.Write a query to display the name of an employee whose name contains ”K” as First and
 “L” as third alphabet?
-select ename from employees where ename like "K_l%";
+select ename from employees where ename like "_l%";
 
