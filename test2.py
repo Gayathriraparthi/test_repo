@@ -12,9 +12,10 @@ in the "This is orange juice".
 string = "This is orange juice"
 word = "orange"
 if word in string:
-    print(f"{word} is present in given string")
+    print(f"{word} is present in the given string")
 else:
-    print(f"{word} is not present in given string")
+    print(f"{word} is not present in  the given string")
+
     
 """3. Write a program that will print whether the number is a single digit number or double digit number or big number.
 If given number is one digit number, print "Single digit number".If given number is two digit number, print "Double digit
@@ -75,7 +76,6 @@ for i in anagram:
         if sorted(i) == sorted(j):
             anagram[i].append(j)
         
-
 print(anagram.values())
 
 
@@ -90,6 +90,7 @@ values = d.keys()
 modified_d = dict(zip(keys,values))
 
 print(modified_d)
+
 
 """8. Write a program to display the elements of list thrice if it is a number and display the element terminated 
 with ‘#’ if it is not a number. For example, if the content of list is [‘41’, ‘DHRUVA’, ‘GURU’, ‘13’, ‘ZARA’]The output
@@ -108,8 +109,7 @@ print(output)
 
 
 """9. Write a program to return a list of sorted values based on the keys in the dictionary. For example,
-if {'x': 1, 'y': 2, 'a': 3} is the dictionary then it should return [3, 1, 2].
-"""
+if {'x': 1, 'y': 2, 'a': 3} is the dictionary then it should return [3, 1, 2]."""
 
 d = {'x': 1, 'y': 2, 'a': 3}
 sorted_keys = sorted(d)
